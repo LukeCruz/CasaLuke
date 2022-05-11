@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: hsl(170, 100%, 26%);
+  --headline: hsl(210, 11%, 15%);
+  --paragraph: hsl(210, 9%, 31%);
+  --background-button: rgb(255, 255, 255);
+
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: 'DM Sans';
+  font-size: 1.6rem;
+background-color: aqua;
+  text-align: center;
+}
+
+header {
+  width: 37.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 4.1rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+  color: var(--headline);
+  line-height: 130%;
+
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--paragraph);
+
+  margin-bottom: 3.2rem;
+}
+
+button {
+  /*container do botão*/
+  border: 0.1rem, solid;
+  border-radius: 4rem;
+  margin-bottom: 6rem;
+  height: 3.8rem;
+  width: 19rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+
+header header {
+  color: var(--primary-color);
+  width: 136.6rem;
+ height: 7.2rem;
+display: flex;
+position: relative;
+width: 3.75rem;
+height: 7.2rem;
+left: 0rem;
+top: 0rem;
+}
+
+header header div {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  display: flex;
+  width: 350px;
+  height: 47px;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+header div.containerInfo{
+display: inline-block;
+  /* Primary Colors/brand-beige */
+  background: #FFFAF1;
+/* Primary Colors/brand-green-light */
+  border: 1px solid #DCE9E2;
+  border-radius: 6px;
+
+  /* BG */
+box-sizing: border-box;
+align-items: center;
+position: absolute;
+width: 32.7rem;
+height: 47rem;
+left: 2.4rem;
+top: 82.8rem;
+}
+
+header div h3.numeros{
+  display: block;
+  margin:auto;
+  border: 1px, solid;
+
+  /*textos*/
+  text-align: center;
+  font-size: 4.8rem;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+header div p.p1 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--primary-color);
+}
+
+ header div.artigos {
+   background-color: #F7F9F9;
+   width: 37.5rem;
+   height: 203.4rem;
+   left: 37.5rem;
+   top: 115.1rem;
+    
+}
+
+header div p.card {
+  position: static;
+width: 248px;
+height: 31px;
+left: 24px;
+top: 64px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 31px;
+text-align: center;
+
+/* Secondary Colors/gray-headline */
+
+color: #212529;
+}
+header h3.titulo {
+
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 1.4rem;
+line-height: 150%;
+text-transform: uppercase;
+
+/* identical to box height, or 21px */
+letter-spacing: 0.0em;
+
+/* Primary Colors/brand-green */
+color: #00856F;
+}
+
+header article.SobreNosArtigo{
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 1.6rem;
+line-height: 150%;
+padding: 2.4rem;
+
+/* Secondary Colors/gray-paragraph */
+color: var(--paragraph);
+}
+header div div.CardContainer {
+align-items: flex-start;
+display: flex;
+justify-content: center;
+flex-direction: column;
+box-sizing: border-box;
+width: 32.7rem;
+height: 20.7rem;
+margin-left:2.4rem;
+margin-right: 2.4rem;
+margin-top: 2.4rem;
+padding:2.4rem;
+
+/* Secondary Colors/White */
+
+background: #FFFFFF;
+/* Primary Colors/brand-green-light */
+
+border: 1px solid #DCE9E2;
+border-radius: 6px;
+}
+ header div.initial{
+  background: #DCE9E2;
+}
+
+header div.secondary{
+  background: #F7F9F9;;
+}
+
+header div.sobreNos {
+  background: #FFFAF1;
+}
+
+header img.imageSobreNos {
+  margin-left: 2.4rem;
+  margin-right:2.4rem;
+  width: 32.7rem;
+  height: 28.2rem;
+  margin-bottom: 10rem;
+  margin-top: 6rem;
+}
+ header div.contato {
+   background-color: #FFFFFF;
+ }
+
+ header h1.tituloContato {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  color: var(--headline);
+  margin-right:5.4rem;
+  margin-left: 2.4rem;
+  padding-top:10rem;
+  text-align: left;
+  /* Secondary Colors/gray-paragraph */
+ }
+
+header p.info {
+  color: var(--paragraph);
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-left: 5.6rem;
+  margin-top:2.5rem;
+}
+
+header button.button2 {
+  
+    /*container do botão*/
+    border: 0.1rem, solid;
+    border-radius: 4rem;
+    margin-bottom: 6rem;
+    height: 3.8rem;
+    width: 19rem;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+  
+    margin-right: auto;
+    margin-left: auto;
+  
+  /*escrita do botao*/
+    color:var(--primary-color);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 1.8rem;
+
+}
+
+header img.imgPessoa{
+  width: 32.4rem;
+  height: 21.3rem;
+  margin-left: 2.7rem;
+  margin-top: 4.2rem;
+  margin-bottom: 10rem;
+  align-items: center;
+}
+
+header footer {
+  background-color: var(--primary-color);
+    width: 37.5rem;
+    height: 28.5rem;
+  
+}
+
+header footer p.paragrafoFooter {
+  color: #FFFAF1;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  margin:auto;
+  text-align: left;
+  margin-left: 2.4rem;
+}
+
+header footer h1.logo {
+  color: #FFFFFF;
+  font-weight: 100;
+  text-align:left;
+  margin-left: 2.6rem;
+  padding-top: 6rem;
+}
