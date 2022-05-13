@@ -1,6 +1,14 @@
+addEventListener
+
 function onScroll (){
+    onScrollMenu()
+    onScrollToTop()
+}
+
+function onScrollMenu () {
 
 const scroll = document.getElementById('navigation');
+
     if (scrollY > 0) {
         scroll.classList.add('scroll')
     } else {
@@ -8,6 +16,14 @@ const scroll = document.getElementById('navigation');
     }
 }
 
+function onScrollToTop (){
+    const scrollToTop = document.getElementById('buttonFloat')
+
+    if (scrollY > 400) {
+        scrollToTop.classList.add('show')
+    } else {   
+        scrollToTop.classList.remove('show')}
+}
 
 function openMenu () {
 document.body.classList.add('menu-expanded')}
@@ -17,16 +33,28 @@ function closeMenu () {
     ScrollReveal({
         origin: 'top',
         distance: '3px',
-        duration: 700,
+        duration: 1500,
 
     }).reveal(
         `#homePage,
         #homePage h4,
         #homePage h1,
-        #homePage img,`);
-       // #homePage #buttonTop,
-        //#homePage .containerInfo,
-     //   #homePage .containerInfo .pi,
-       // #homePage .containerInfo .numeros,
-       // #homePage .artigos,
-        //#homePage .about`);
+        #homePage h3,
+        #homePage img,
+        #homePage #buttonTop,
+        #homePage .containerInfo,
+        #homePage .artigos,
+        #homePage .about,
+        buttonFloat`);
+
+
+        ScrollReveal({
+            origin: 'top',
+            distance: '3px',
+            duration: 5000,
+    
+        }).reveal(
+            `#homePage p,
+            #homePage imageSobreNos,
+            #homePage button
+           `);
