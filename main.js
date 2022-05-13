@@ -1,4 +1,3 @@
-addEventListener
 
 function onScroll (){
     onScrollMenu()
